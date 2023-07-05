@@ -193,6 +193,7 @@ class Game:
         self.plataformas_creadas = False
         self.sprites.empty()
         self.enemigos.empty()
+        self.plataformas.empty()
         self.personaje.arco.arrows.empty()
         
         self.sprites.add(self.personaje)

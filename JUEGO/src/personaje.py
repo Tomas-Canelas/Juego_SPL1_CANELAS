@@ -59,10 +59,7 @@ class Personaje(pygame.sprite.Sprite):
             self.saltando = True
             self.inplatform = False
             self.velocidad_y = self.altura_salto
-            # self.jump()
-            
-            
-            
+                                    
         if keys[pygame.K_SPACE]:
             if not self.disparando:  # Disparar solo si no se está disparando actualmente
                 self.disparar_arco()
